@@ -1,0 +1,99 @@
+/* HEADINGS */
+
+h1 {
+    font-size: 9rem;
+    font-family: aAwalRamadhan;
+    color: white;
+    letter-spacing: 1rem;
+    text-wrap: nowrap;
+    margin-bottom: -1.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: aAwalRamadhan;
+    color: #ecae7d;
+    letter-spacing: 0.4rem;
+}
+
+h3 {
+    font-size: 5rem;
+    font-family: aAwalRamadhan;
+    color: #e9311a;
+    letter-spacing: 0.4rem;
+}
+
+/* Sections */
+
+/* Intro */
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(100vh - 75px);
+    margin-bottom: 50px;
+}
+
+#intro {
+    height: calc(100vh - 75px);
+    justify-content: center;
+}
+
+.featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+    padding: 4vw;
+    overflow: hidden;
+    background-size: cover;
+    background-color: #064c7284;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c6/Sindoro_sumbing.jpg);
+}
+
+/* Kelompok */
+#kelompok p{
+    margin: 20px 0;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Groundation;
+    color: #026c80;
+    font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 720px) {
+
+    /* MOBILE HEADINGS */
+
+    h1 {
+        font-size: 4rem;
+        letter-spacing: 0.4rem;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    /* featured */
+    .featured {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
