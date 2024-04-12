@@ -1,0 +1,55 @@
+h1 {
+    font-size: 9rem;
+    font-family: aAwalRamadhan;
+    color: #ecae7d;
+    letter-spacing: 1rem;
+    text-wrap: nowrap;
+    margin-bottom: -1.5rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    font-size: 4rem;
+    font-family: aAwalRamadhan;
+    color: #e9311a;
+    letter-spacing: 0.4rem;
+    text-align: left;
+}
+
+.section-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+section {
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width: 720px) {
+
+    /* MOBILE HEADINGS */
+
+    h1 {
+        font-size: 4rem;
+        letter-spacing: 0.4rem;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}

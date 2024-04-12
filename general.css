@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* BASIC SETUP */
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #f1ebe1;
+}
+
+/* Header */
+.header-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-color: #064c7284;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 4vw;
+    background: rgba(0, 0, 0, 0.5);
+background: linear-gradient(0deg, rgba(241,235,225,1) 0%, rgba(0,0,0,0.4) 50%);
+}
+
+.science {
+    background-image: url(https://img.freepik.com/premium-photo/science-background-design_974729-4531.jpg);
+}
+
+.technology {
+    background-image: url(https://t3.ftcdn.net/jpg/02/88/80/38/360_F_288803822_0CJ8L3gr6w6nGnUeje6pCllCX7s986xz.jpg);
+}
+
+.engineering {
+    background-image: url(https://wallpapers.com/images/hd/hd-engineering-machine-clock-wheels-ds4oye50nvld7883.jpg);
+}
+
+.arts {
+    background-image: url(https://i.pinimg.com/originals/19/a1/b2/19a1b216f31a5d18a054aef242ccacab.jpg);
+}
+
+.mathematics {
+    background-image: url(https://i.pinimg.com/originals/fc/37/a8/fc37a832ba5fe504962181e7dcfa370c.jpg);
+}
+
+@media only screen and (max-width: 720px) {
+    .header-wrapper {
+        height: auto;
+    }
+}
+
+@font-face {
+    font-family: aAwalRamadhan;
+    src: url(aAwalRamadhan.otf);
+}
+
+@font-face {
+    font-family: Groundation;
+    src: url(Groundation\ Foundation.ttf);
+}
