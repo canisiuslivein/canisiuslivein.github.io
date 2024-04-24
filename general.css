@@ -17,7 +17,7 @@ body {
 .header-wrapper {
     width: 100vw;
     height: 100vh;
-    background-image: url(background.jpg);
+    background-image: url(bg/mountain.jpg);
     background-size: cover;
     background-color: #064c7284;
     background-position: center center;
@@ -38,35 +38,35 @@ background: linear-gradient(0deg, #f2dfbd 0%, rgba(0,0,0,0.4) 50%);
 }
 
 .sosial {
-    background-image: url(people.jpg);
+    background-image: url(bg/people.jpg);
 }
 
 .ekonomi {
-    background-image: url(5487462-tobacco-wallpapers.jpg);
+    background-image: url(bg/5487462-tobacco-wallpapers.jpg);
 }
 
 .geografi {
-    background-image: url(geografi.jpeg);
+    background-image: url(bg/geografi.jpeg);
 }
 
 .sejarah {
-    background-image: url(history.jpg);
+    background-image: url(bg/history.jpg);
 }
 
 .demografi {
-    background-image: url(demography.jpg);
+    background-image: url(bg/demography.jpg);
 }
 
 .pkn {
-    background-image: url(law.jpg);
+    background-image: url(bg/law.jpg);
 }
 
 .religi {
-    background-image: url(christian-background-with-christian-cross-symbol-generative-ai_834602-1367.avif);
+    background-image: url(bg/christian-background-with-christian-cross-symbol-generative-ai_834602-1367.avif);
 }
 
 .ipa {
-    background-image: url(science.avif);
+    background-image: url(bg/science.avif);
 }
 
 @media only screen and (max-width: 720px) {
@@ -77,10 +77,10 @@ background: linear-gradient(0deg, #f2dfbd 0%, rgba(0,0,0,0.4) 50%);
 
 @font-face {
     font-family: aAwalRamadhan;
-    src: url(aAwalRamadhan.otf);
+    src: url(fonts/aAwalRamadhan.otf);
 }
 
 @font-face {
     font-family: Groundation;
-    src: url(Groundation\ Foundation.ttf);
+    src: url(fonts/Groundation\ Foundation.ttf);
 }

@@ -3,10 +3,12 @@ h1 {
     font-family: aAwalRamadhan;
     color: #ecae7d;
     letter-spacing: 1rem;
-    text-wrap: nowrap;
+    text-wrap: wrap;
     margin-bottom: -1.5rem;
     text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
+
 h2 {
     font-size: 4rem;
     font-family: aAwalRamadhan;
@@ -35,7 +37,11 @@ p, li {
     margin: 10px 0;
 }
 
-li {
+section ul {
+    width: 100%;
+}
+
+section li {
     margin-left: 50px;
 }
 
@@ -44,13 +50,14 @@ li {
     align-items: center; 
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
-    padding: 20px 0;
+    padding: 10px 0 0;
     justify-items: center;
 }
    
 img {
     max-width: 100%;
     max-height:100%;
+    margin: 10px;
 }
 
 @media only screen and (max-width: 720px) {
@@ -65,9 +72,16 @@ img {
     h2 {
         font-size: 2.5rem;
         text-align: center;
+        letter-spacing: 0;
     }
 
-    p {
+    p, li {
         font-size: 1rem;
+    }
+    .section-wrapper {
+        padding: 10px;
+    }
+    .imageContainer {
+        grid-template-columns: 1fr;
     }
 }
