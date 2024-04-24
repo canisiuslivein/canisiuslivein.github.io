@@ -38,35 +38,35 @@ background: linear-gradient(0deg, rgba(241,235,225,1) 0%, rgba(0,0,0,0.4) 50%);
 }
 
 .sosial {
-    background-image: url(https://img.freepik.com/premium-photo/science-background-design_974729-4531.jpg);
+    background-image: url(people.jpg);
 }
 
 .ekonomi {
-    background-image: url(https://t3.ftcdn.net/jpg/02/88/80/38/360_F_288803822_0CJ8L3gr6w6nGnUeje6pCllCX7s986xz.jpg);
+    background-image: url(5487462-tobacco-wallpapers.jpg);
 }
 
 .geografi {
-    background-image: url(https://wallpapers.com/images/hd/hd-engineering-machine-clock-wheels-ds4oye50nvld7883.jpg);
+    background-image: url(geografi.jpeg);
 }
 
 .sejarah {
-    background-image: url(https://i.pinimg.com/originals/19/a1/b2/19a1b216f31a5d18a054aef242ccacab.jpg);
+    background-image: url(history.jpg);
 }
 
 .demografi {
-    background-image: url(https://i.pinimg.com/originals/fc/37/a8/fc37a832ba5fe504962181e7dcfa370c.jpg);
+    background-image: url(demography.jpg);
 }
 
 .pkn {
-    background-image: url(https://wallpapers.com/images/hd/hd-engineering-machine-clock-wheels-ds4oye50nvld7883.jpg);
+    background-image: url(law.jpg);
 }
 
 .religi {
-    background-image: url(https://i.pinimg.com/originals/19/a1/b2/19a1b216f31a5d18a054aef242ccacab.jpg);
+    background-image: url(christian-background-with-christian-cross-symbol-generative-ai_834602-1367.avif);
 }
 
 .ipa {
-    background-image: url(https://i.pinimg.com/originals/fc/37/a8/fc37a832ba5fe504962181e7dcfa370c.jpg);
+    background-image: url(science.avif);
 }
 
 @media only screen and (max-width: 720px) {
