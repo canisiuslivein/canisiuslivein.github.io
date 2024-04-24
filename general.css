@@ -10,7 +10,7 @@
 body {
     width: 100%;
     height: auto;
-    background-color: #f1ebe1;
+    background-color: #f2dfbd;
 }
 
 /* Header */
@@ -34,7 +34,7 @@ header {
     align-items: center;
     padding: 10vh 4vw;
     background: rgba(0, 0, 0, 0.5);
-background: linear-gradient(0deg, rgba(241,235,225,1) 0%, rgba(0,0,0,0.4) 50%);
+background: linear-gradient(0deg, #f2dfbd 0%, rgba(0,0,0,0.4) 50%);
 }
 
 .sosial {
