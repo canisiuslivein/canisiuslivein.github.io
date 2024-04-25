@@ -37,8 +37,12 @@ p, li {
     margin: 10px 0;
 }
 
-section ul {
+section ul, section ol {
     width: 100%;
+}
+
+section img {
+    border-radius: 30px;
 }
 
 section li {
