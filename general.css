@@ -17,10 +17,8 @@ body {
 .header-wrapper {
     width: 100vw;
     height: 100vh;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Sindoro_sumbing.jpg/1200px-Sindoro_sumbing.jpg);
     background-size: cover;
     background-color: #064c7284;
-    background-position: center 100%;
     background-blend-mode: multiply;
     background-attachment: fixed;
 }
@@ -37,35 +35,48 @@ header {
 background: linear-gradient(0deg, #f2dfbd 0%, rgba(0,0,0,0.4) 50%);
 }
 
+.home  {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Sindoro_sumbing.jpg/1200px-Sindoro_sumbing.jpg);
+    background-position: center 100%;
+}
+
 .sosial {
     background-image: url(bg/people.jpg);
+    background-position: center 100%;
 }
 
 .ekonomi {
+    background-position: center 100%;
     background-image: url(https://plus.unsplash.com/premium_photo-1678655852198-9af5cf9da524?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9iYWNjbyUyMHBsYW50fGVufDB8fDB8fHww);
 }
 
 .geografi {
-    background-image: url(bg/geografi.jpeg);
+    background-position: center center;
+    background-image: url(https://i2.wp.com/blog.tripcetera.com/id/wp-content/uploads/2019/06/landscape-3779159_1920.jpg);
 }
 
 .sejarah {
+    background-position: center center;
     background-image: url(bg/history.jpg);
 }
 
 .demografi {
+    background-position: center center;
     background-image: url(bg/demography.jpg);
 }
 
 .pkn {
+    background-position: center 100%;
     background-image: url(bg/law.jpg);
 }
 
 .religi {
+    background-position: center center;
     background-image: url(bg/christian-background-with-christian-cross-symbol-generative-ai_834602-1367.avif);
 }
 
 .ipa {
+    background-position: center center;
     background-image: url(bg/science.avif);
 }
 
